@@ -34,6 +34,16 @@
     margin-left: 15px;
 }
 
+.navbar-brand-link {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+.navbar-brand-link:hover {
+  text-decoration: none;
+  color: pink;
+}
+
 .navbar-inverse .navbar-brand:hover {
   color: #9d9d9d;
 }
