@@ -72,3 +72,20 @@
 
 /* Navbar mods -- end */
 
+
+/* Form styles -- start */
+.text_inputs {
+  width: 30%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+/* Form styles -- end */
+
+/* Footer styles -- start */
+footer {
+  text-align: center;
+}
+/* Footer styles -- end */
+
