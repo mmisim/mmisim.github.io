@@ -7,8 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/favicon_bunny.ico">
-
+    <!-- MSM: commented this out until I create a new fav icon -->
+    <!-- <link rel="icon" href="assets/favicon.ico"> -->
 
     <title>Samantha Bakes Cakes</title>
 
@@ -17,6 +17,10 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,16 +49,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <div class="navbar-brand"><a class="navbar-brand-link" href="index.html">Samantha Bakes Cakes</a></div>
+              <div class="navbar-brand"><a class="navbar-brand-link" href="./index.html">Samantha Bakes Cakes</a></div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services_prices.html">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>                
-                <li><a href="about.html">About Samantha</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./services_prices.html">Services and Prices</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./about.html">About Samantha</a></li>
+                <li class="active"><a href="./contact.html">Contact</a></li>
+               
               </ul>
             </div>
           </div>
@@ -68,33 +72,8 @@
       </br>
       </br>
       </br>
-      <h3>Contact Samantha</h3>
-        </br>
-        <img class="img-responsive img-rounded" src="images/contact-cake.jpg">
-        </br>
-        </br>
-        <form action="https://formspree.io/samanthabakescakes@gmail.com"
-        method="POST">
-        <input type="hidden" name="_next" value="thanks.html" />
-        <input type="hidden" name="_cc" value="michaelmarturana@gmail.com" />
-        <input type="text" name="_gotcha" style="display:none" />
-        Your name:
-        </br>
-        <input type="text" name="name" class="text_inputs">
-        </br>
-        Your email:
-        </br>
-        <input type="email" name="_replyto" class="text_inputs">
-        </br>
-        Message:
-        </br>
-        <textarea type="text" name="_message" class="text_inputs" rows="5"></textarea>
-        </br>
-        </br>
-        </br>
-        <input type="submit" value="Send">
-
-        </form>
+      <h2>Thank You!</h2>
+        <p>Your message has been sent. Samantha will be in touch soon!</p>
     </div>
 
 
@@ -103,16 +82,6 @@
 
     </div><!-- /.container -->
 
-     <!-- FOOTER -->
-      <footer>
-        </br>
-        </br>
-        </br>
-        </br>
-        <img src="images/footer_logo.jpg">
-        <p>&copy; Samantha Bakes Cakes <script>document.write(new Date().getFullYear())</script></p>
-      </footer>   
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -120,6 +89,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
