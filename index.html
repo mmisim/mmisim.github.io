@@ -24,9 +24,10 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    
-    <link href="assets/css/carousel.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Josefin+Slab:600" rel="stylesheet">
+
+<!--     <link href="assets/css/carousel.css" rel="stylesheet">
+  -->   <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/css/owl.theme.default.css" rel="stylesheet">
     <link href="assets/css/smc-custom-bootstrap.css" rel="stylesheet">
 
@@ -68,9 +69,9 @@
 
     <!-- Carousel
     ================================================== -->
+     <!--  </br>
       </br>
-      </br>
-      </br>
+      </br> -->
     <div class="owl-carousel owl-theme">
   <div> <img alt="Title 1" src="images/carousel-images/carousel_1.jpg"/> </div>
   <div> <img alt="Title 1" src="images/carousel-images/carousel_2.jpg"/> </div>
@@ -85,40 +86,50 @@
 
       </br>
       </br>
-      </br>
 
     <div class="container marketing">
 
       <div class="row">
-        <div class="col-lg-4">
-          <h2>Services</h2>
-          <p>Samantha makes custom cakes, cookies, and desserts in Brooklyn, NY for all occasions. See more on the <a href="services_prices.html">Services</a> list, or browse the <a href="gallery.html">Gallery</a> for ideas and inspiration.</p>
+        <div class="col-md-4">
+          <h3>Services</h3>
+          <p>Samantha makes custom cakes, cookies, and desserts in Brooklyn, NY for all occasions.</p> 
+          <p>
+          See more on the <a href="services_prices.html">Services</a> list, or browse the <a href="gallery.html">Gallery</a> for ideas and inspiration.</p>
+          </br>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2>Testimonials</h2>
+        
 
 
-
+  <div class="col-md-4">
+  <h3>Testimonials</h3>
   <div class="owl-carousel owl-theme testimonialsCarousel">
   <div>           
-  <p><i>I can't recommend her enough!</i> </br>-- Mandy in Brooklyn</p> 
+  <p><i>Samantha really made me feel special on my birthday. I can't recommend her enough!</i> </br>-- Mandy in Brooklyn</p> 
   </div>
   <div>           
-  <p><i>The cake was bigger and even more beautiful than I had expected (simple, elegant, and exactly the theme I wanted)</i> </br>-- Ashley in Brooklyn</p> 
+  <p><i>It was so easy working with Sam and I felt so relieved with dessert in the hands of a professional!</i> </br>-- Ashley in Brooklyn</p> 
   </div>
   <div>           
   <p><i>Thank you for making our special day that much more special!</i> </br>-- Emily in North Carolina</p> 
   </div>
 </div>
+<p>See more <a href="testimonials.html">Testimonials</a>.
+</br>
+</br>
+</div>
 
+<!-- /.col-lg-4 -->
+        
 
-          <p>See more <a href="testimonials.html">Testimonials</a>.
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2>About Samantha</h2>
+        <div class="col-md-4">
+          <h3>About Samantha</h3>
           <p>Samantha has baked in top kitchens in New York and around the country and has trained with top names in the pastry field.</p>
           <p>Learn more <a href="about.html">About Samantha</a>.
+        </br>
+        </br>
         </div><!-- /.col-lg-4 -->
+
+
       </div><!-- /.row -->
 
 
@@ -126,7 +137,6 @@
 
  <!-- FOOTER -->
       <footer>
-        </br>
         </br>
         </br>
         </br>
@@ -150,7 +160,7 @@
       items:1,
       loop:true,
       margin:10,
-      dots: true,
+      dots: false,
       autoplay:true,
       autoplayTimeout:5000,
       smartSpeed: 500,
@@ -175,12 +185,12 @@
               nav:false,
               loop: true
           },
-          768:{
+          600:{
               items:2,
               nav:false,
               loop: true
           },
-          1000:{
+          1200:{
               items:2,
               nav:false,
               loop: true
