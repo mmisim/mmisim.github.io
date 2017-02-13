@@ -1,3 +1,7 @@
+
+
+
+
 /* Navbar mods -- start */
 
 /*navbar background and border colors */
@@ -12,6 +16,13 @@
   font-weight: 600;
   font-size: 2em;
   color: #D988A8;
+}
+
+/* shrink brand to fit on portrait phones */
+@media (max-width: 450px) {
+.navbar-default .navbar-brand {
+  font-size: 1.7em;
+}
 }
 
 
@@ -144,6 +155,9 @@ footer {
 /* END to insert space for wrapped nav size */
 
 
+
+
+
 /* left align the brand with the rest of the page content when the nav collapses into the hamburger */
 @media (max-width: 768px) {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -169,6 +183,8 @@ footer {
 }
 }
 }
+
+
 
 
 
