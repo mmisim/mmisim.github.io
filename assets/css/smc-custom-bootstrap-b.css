@@ -1,7 +1,3 @@
-
-
-
-
 /* Navbar mods -- start */
 
 /*navbar background and border colors */
@@ -54,10 +50,20 @@
     background-color: #fff;
 }
 
-/*expanded hamburger top border color*/
+/*expanded hamburger border color*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #D988A8;
 }
+
+/*show menu bottom border when menu collapses into hamburger*/
+@media (max-width: 767px) {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+}
+
+
 
 /*align the expanded hamburger menu with the brand and main page content */
 .navbar-default .navbar-collapse a{
