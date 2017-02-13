@@ -102,11 +102,20 @@ body {
 
 
 /* Form styles -- start */
+
+
 .text_inputs {
-  width: 300px;
+  width: 350px;
   border-width: 1px;
   border-style: solid;
   border-color: #eeeeee;
+}
+
+/* shrink input form fields portrait phones */
+@media (max-width: 400px) {
+.text_inputs {
+  width: 250px;
+}
 }
 
 .form_submit_button {
