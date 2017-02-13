@@ -1,0 +1,178 @@
+/* Navbar mods -- start */
+
+/*navbar background and border colors */
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/*brand style*/
+.navbar-default .navbar-brand {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #D988A8;
+}
+
+
+/*navbar main link style*/
+.navbar-default .navbar-nav>li>a {
+  color: #D988A8;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+/*navbar main link selected style*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #fff;
+  color: #D26992;
+  font-weight: 700;
+}
+
+/*hamberger base styles*/
+
+.navbar-default .navbar-toggle {
+  border-color: #D988A8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #D988A8;
+}
+
+/*hamberger selected styles*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+/*expanded hamburger top border color*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #D988A8;
+}
+
+/*align the expanded hamburger menu with the brand and main page content */
+.navbar-default .navbar-collapse a{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+/* Navbar mods -- end */
+
+
+/*General/Body styles -- start*/ 
+
+a:hover {
+  color: #9F4F6F !important;
+  text-decoration: none;
+}
+
+a {
+  color: #D988A8;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #D26992;
+  font-weight: 400;
+}
+/*--> for testimonial headers*/
+h4 {
+  color: #D988A8;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*General/Body styles -- end*/ 
+
+
+/* Form styles -- start */
+.text_inputs {
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+.form_submit_button {
+    background-color: #fff; 
+    border: 1px;
+    border-style: solid;
+    border-color: #D988A8;
+    color: #D988A8;
+    padding: .7em 1.7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form_submit_button:hover {
+    color: #9F4F6F;
+    border-color: #9F4F6F;
+}
+
+/* Form styles -- end */
+
+/* Footer styles -- start */
+footer {
+  text-align: center;
+   color: #D26992;
+}
+/* Footer styles -- end */
+
+
+/*FIXEX/OTHER*/
+
+/* START to insert space for wrapped nav size */
+@media (min-width: 768px){
+.additional_space_element {
+  display: inline-block;
+  margin-top: 70px;
+  }
+}
+
+@media (min-width: 992px){
+.additional_space_element {
+  display: inline-block;
+  margin-top: 0px;
+  }
+}
+/* END to insert space for wrapped nav size */
+
+
+/* left align the brand with the rest of the page content when the nav collapses into the hamburger */
+@media (max-width: 768px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+}
+
+@media (min-width: 768px) {
+/* left align the nav links with the main body conetent when the links wrap */
+.navbar-default .navbar-collapse a{
+    margin-left: 0px;
+}
+/* left align the brand with the rest of the page content at 768px wide */
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
+
+/* left align the brand with the rest of the page content when the nav links wrap */
+@media (min-width: 769px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
+}
+
+
+
+
+
+
+
