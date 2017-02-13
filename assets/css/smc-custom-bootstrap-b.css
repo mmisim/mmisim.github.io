@@ -103,7 +103,7 @@ body {
 
 /* Form styles -- start */
 .text_inputs {
-  width: 350px;
+  width: 300px;
   border-width: 1px;
   border-style: solid;
   border-color: #eeeeee;
@@ -136,7 +136,7 @@ footer {
 /* Footer styles -- end */
 
 
-/*FIXEX/OTHER*/
+/*FIXES/OTHER*/
 
 /* START to insert space for wrapped nav size */
 @media (min-width: 768px){
