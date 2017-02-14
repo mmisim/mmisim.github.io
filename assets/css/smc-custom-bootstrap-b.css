@@ -22,7 +22,7 @@
 }
 
 /* shrink brand to fit on smaller portrait phones */
-@media (max-width: 320px) {
+@media (max-width: 340px) {
 .navbar-default .navbar-brand {
   font-size: 1.5em;
 }
