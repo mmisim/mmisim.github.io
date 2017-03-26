@@ -42,6 +42,7 @@
   font-weight: 700;
 }
 
+
 /*hamberger base styles*/
 
 .navbar-default .navbar-toggle {
@@ -69,19 +70,16 @@
 }
 }
 
-
-
 /*align the expanded hamburger menu with the brand and main page content */
 .navbar-default .navbar-collapse a{
     margin-left: 15px;
 }
 
-
-
-
-
-
 /* Navbar mods -- end */
+
+
+
+
 
 
 /*General/Body styles -- start*/ 
@@ -157,6 +155,8 @@ footer {
 /* Footer styles -- end */
 
 
+
+
 /*FIXES/OTHER*/
 
 /* START to insert space for wrapped nav size */
@@ -203,7 +203,37 @@ footer {
     margin-left: 0px;
 }
 }
+
+/* limit the width of the main content div */
+.main-content-container {
+  max-width: 650px;
 }
+
+
+
+@media (min-width: 768px){
+  #nav-parent-container {
+    width: 680px;
+}
+}
+
+@media (min-width: 992px){
+  #nav-parent-container {
+    width: 910px;
+}
+}
+
+@media (min-width: 1200px){
+  #nav-parent-container {
+    width: 910px;
+}
+}
+
+html {
+  overflow-y: scroll;
+}
+
+
 
 
 
