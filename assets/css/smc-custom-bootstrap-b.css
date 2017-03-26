@@ -240,7 +240,9 @@ li.content-bullet span {
     color: black;
 }
 
-
+.justified-gallery {
+  left: -20px;
+}
 
 
 
