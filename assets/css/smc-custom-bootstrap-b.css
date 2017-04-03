@@ -86,11 +86,17 @@
 
 a:hover {
   color: #9F4F6F !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a {
+  color: #D988A8 !important;; 
+  text-decoration: none !important;
+}
+
+a:active {
   color: #D988A8;
+  text-decoration: none !important;
 }
 
 h1, h2, h3, h4, h5 {
