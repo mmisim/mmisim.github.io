@@ -244,8 +244,23 @@ li.content-bullet span {
   left: -20px;
 }
 
+.social-icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
 
-
+.social-icons-inline {
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
