@@ -173,12 +173,6 @@ footer {
   }
 }
 
-@media (min-width: 992px){
-.additional_space_element {
-  display: inline-block;
-  margin-top: 0px;
-  }
-}
 /* END to insert space for wrapped nav size */
 
 
@@ -219,21 +213,11 @@ footer {
 
 @media (min-width: 768px){
   #nav-parent-container {
-    width: 680px;
+    width: 740px;
 }
 }
 
-@media (min-width: 992px){
-  #nav-parent-container {
-    width: 910px;
-}
-}
 
-@media (min-width: 1200px){
-  #nav-parent-container {
-    width: 910px;
-}
-}
 
 html {
   overflow-y: scroll;
@@ -266,6 +250,15 @@ li.content-bullet span {
   margin-right: 7px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#navbar.navbar-collapse.collapse.in {
+  max-height: 800px;
+}
+
+.wakeup-blurb-content {
+  max-width: 650px;
+  padding: 0px;
 }
 
 
