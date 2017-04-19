@@ -262,8 +262,16 @@ li.content-bullet span {
 }
 
 
+.inline-image-sbc {
+  width: 100%;
+}
 
-
+.inline-image-sbc-small {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%; 
+}
 
 
 
