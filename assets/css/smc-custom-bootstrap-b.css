@@ -273,5 +273,44 @@ li.content-bullet span {
   margin-right: 25%; 
 }
 
+/*responsive maps css credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/*/
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
+
+div.menu-style a {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: .25em;
+  margin-left: .25em;
+}
+
+
+.rwd-line { 
+  display: block;
+  margin-bottom: .5em; 
+}
+.hide-on-collapse {
+  display:none;
+}        
+
+@media screen and (min-width: 768px){
+  .rwd-line { 
+    display: inline; }
+}
+@media screen and (min-width: 768px){
+  .hide-on-collapse { 
+    display: inline; }
+}
 
