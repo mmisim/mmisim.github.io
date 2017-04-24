@@ -173,12 +173,6 @@ footer {
   }
 }
 
-@media (min-width: 992px){
-.additional_space_element {
-  display: inline-block;
-  margin-top: 0px;
-  }
-}
 /* END to insert space for wrapped nav size */
 
 
@@ -219,21 +213,11 @@ footer {
 
 @media (min-width: 768px){
   #nav-parent-container {
-    width: 680px;
+    width: 740px;
 }
 }
 
-@media (min-width: 992px){
-  #nav-parent-container {
-    width: 910px;
-}
-}
 
-@media (min-width: 1200px){
-  #nav-parent-container {
-    width: 910px;
-}
-}
 
 html {
   overflow-y: scroll;
@@ -268,9 +252,65 @@ li.content-bullet span {
   margin-bottom: 10px;
 }
 
+#navbar.navbar-collapse.collapse.in {
+  max-height: 800px;
+}
+
+.wakeup-blurb-content {
+  max-width: 650px;
+  padding: 0px;
+}
 
 
+.inline-image-sbc {
+  width: 100%;
+}
+
+.inline-image-sbc-small {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%; 
+}
+
+/*responsive maps css credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/*/
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 
+div.menu-style a {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: .25em;
+  margin-left: .25em;
+}
 
+
+.rwd-line { 
+  display: block;
+  margin-bottom: .5em; 
+}
+.hide-on-collapse {
+  display:none;
+}        
+
+@media screen and (min-width: 768px){
+  .rwd-line { 
+    display: inline; }
+}
+@media screen and (min-width: 768px){
+  .hide-on-collapse { 
+    display: inline; }
+}
 
