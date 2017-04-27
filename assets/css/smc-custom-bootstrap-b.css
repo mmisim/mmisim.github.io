@@ -233,12 +233,12 @@ html {
   overflow-y: scroll;
 }
 
-li.content-bullet {
+/*li.content-bullet {
     color: #D988A8;
 }
 li.content-bullet span {
     color: black;
-}
+}*/
 
 .justified-gallery {
   left: -20px;
@@ -302,7 +302,7 @@ li.content-bullet span {
 div.menu-style a {
   display: inline-block;
   font-size: 1.5em;
-  margin-bottom: .25em;
+  margin-bottom: .5em;
   margin-left: .25em;
 }
 
