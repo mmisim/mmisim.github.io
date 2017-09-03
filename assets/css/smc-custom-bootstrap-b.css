@@ -117,6 +117,12 @@ h1, h2, h3, h4, h5 {
   color: #D26992;
   font-weight: 400;
 }
+
+h4 {
+  font-size: 1em;
+  margin: 0px;
+}
+
 /*--> for testimonial headers*/
 h4 {
   color: #D988A8;
