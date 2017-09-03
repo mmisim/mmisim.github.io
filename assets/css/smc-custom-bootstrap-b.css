@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600');
 
 
@@ -204,7 +204,7 @@ footer {
 /* left align the nav links with the main body conetent when the links wrap */
 .navbar-default .navbar-collapse a{
     margin-left: 0px;
-    padding-left: 14px;
+    padding-left: 9px;
 }
 /* left align the brand with the rest of the page content at 768px wide */
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -216,6 +216,7 @@ footer {
 @media (min-width: 769px) {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
+    padding-left: 7px;
 }
 }
 
