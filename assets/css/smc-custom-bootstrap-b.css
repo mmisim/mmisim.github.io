@@ -326,6 +326,10 @@ div.menu-style a {
   display:none;
 }        
 
+.giftboxgallery-fix {
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 768px){
   .rwd-line { 
     display: inline; }
@@ -334,4 +338,5 @@ div.menu-style a {
   .hide-on-collapse { 
     display: inline; }
 }
+
 
