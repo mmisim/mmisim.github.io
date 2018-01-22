@@ -91,20 +91,74 @@
         method="POST">
         <input type="hidden" name="_next" value="thanks.html" />
         <input type="hidden" name="_cc" value="michaelmarturana@gmail.com" />
+        <input type="hidden" name="_subject" id="_subject" value="New message SBC">
+
         <input type="text" name="_gotcha" style="display:none" />
-        Your name:
+        Name:
         </br>
         <input type="text" name="name" class="text_inputs">
         </br>
         </br>
-        Your email address:
+        Email Address:
         </br>
-        <input type="email" name="_replyto" class="text_inputs">
+        <input type="email" name="_replyto" class="text_inputs" id="email">
         </br>
         </br>
-        Message:
+        Phone Number:
         </br>
-        <textarea type="text" name="_message" class="text_inputs" rows="5"></textarea>
+        <input type="text" name="phone_number" class="text_inputs">
+        </br>
+        </br>
+        Event/Delivery Date:&nbsp;  
+        <input type="date" name="event_delivery_date" class="text_inputs_small">
+        </br>
+        </br>   
+        Location:
+        </br>
+        <input type="text" name="location" class="text_inputs">
+        </br>
+        </br>   
+        Type of Event:
+        </br>
+        <input type="radio" name="event_type" value="Wedding"> Wedding<br>
+        <input type="radio" name="event_type" value="Birthday"> Birthday<br>
+        <input type="radio" name="event_type" value="Bridal_Shower"> Bridal Shower<br>
+        <input type="radio" name="event_type" value="Baby_Shower"> Baby Shower<br>
+        <input type="radio" name="event_type" value="Social"> Social<br>
+        <input type="radio" name="event_type" value="Corporate"> Corporate<br>        
+        <input type="radio" name="event_type" value="Other"> Other
+        </br>
+        </br> 
+        Number of Guests: &nbsp;
+        <input type="text" name="number_of_guests" class="text_inputs_small">
+        </br>
+        </br>  
+        Services:
+        </br>
+        <input type="checkbox" name="services" value="Cake"> Cake<br>
+        <input type="checkbox" name="services" value="Cookies"> Cookies<br>
+        <input type="checkbox" name="services" value="Cupcakes"> Cupcakes<br>
+        <input type="checkbox" name="services" value="Cake Pops"> Cake Pops<br>
+        <input type="checkbox" name="services" value="Social"> Petit Fours<br>
+        <input type="checkbox" name="services" value="Other_Desserts"> Other Desserts
+        </br>
+        </br>   
+        How did you hear about us? &nbsp;
+        <select name="how_did_you_hear_about_us">
+          <option value="blank"></option>
+          <option value="yelp">Yelp</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Google">Google</option>
+          <option value="Facebook">Facebook</option>
+          <option value="The_Knot">The Knot</option>
+          <option value="Friend_Referral">Friend/Referral</option>
+          <option value="other">Other</option>
+        </select>
+        </br>
+        </br> 
+        Comments:
+        </br>
+        <textarea type="text" name="_message" class="text_inputs" rows="3"></textarea>
         </br>
         </br>
         <input type="submit" value="Send" class="form_submit_button">
@@ -145,6 +199,16 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     
+    <!-- dynamic form subject -->
+    <script>
+    $(document).ready(function() {
+    var $sub = $("#_subject");
+    $("#email").on("input", function() {
+        $sub.val("New message SBC (" + $(this).val() + ")");
+    });
+});
+</script>
+
     </script>
   </body>
 </html>
