@@ -220,7 +220,7 @@
     var email_string = $("#email");
     var date_string = $("#datepicker");
     $("#email").on("input", function() {
-        $sub.val("New message from: " + email_string.val() + ", about: " + date_string.val());
+        $sub.val("New message about: " + date_string.val() + "(" + email_string.val() + ")" );
     });
 });
 </script>
