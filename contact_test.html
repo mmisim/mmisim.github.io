@@ -220,7 +220,7 @@
     var email_string = $("#email").val();
     var date_string = $("#datepicker").val();
     $("#email").on("input", function() {
-        $sub.val("New message SBC (from: " + email_string + " on " + date_string + ")");
+        $sub.val("New message SBC (from: " + email_string.val() + " on " + date_string.val() + ")");
     });
 });
 </script>
