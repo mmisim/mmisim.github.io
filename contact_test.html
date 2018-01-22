@@ -218,8 +218,8 @@
     $(document).ready(function() {
     var $sub = $("#_subject");
     var replace_string = $("#email").val() + " on " + $("#datepicker").val()
-    $("replace_string").on("input", function() {
-        $sub.val("New message SBC (from: " + $(this).val() + ")");
+    ("replace_string").on("input", function() {
+        $sub.val("New message SBC (from: " + (this) + ")");
     });
 });
 </script>
