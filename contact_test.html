@@ -217,8 +217,8 @@
     <script>
     $(document).ready(function() {
     var $sub = $("#_subject");
-    var email_string = $("#email").val();
-    var date_string = $("#datepicker").val();
+    var email_string = $("#email");
+    var date_string = $("#datepicker");
     $("#email").on("input", function() {
         $sub.val("New message SBC (from: " + email_string.val() + " on " + date_string.val() + ")");
     });
