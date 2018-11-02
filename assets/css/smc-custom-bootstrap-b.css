@@ -118,6 +118,12 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
+
+
+
+
+
+
 h4 {
   font-size: 1em;
 }
@@ -132,6 +138,80 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
 }
+
+
+
+
+/*new announcement styles start*/
+
+.announce {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.announce h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: #D988A8;
+  font-size: 2.5em;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.announce h2 {
+  font-size: 2.25em;
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+
+.announce p {
+  text-align: left;
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+.announce a {
+  font-weight: 400;
+}
+
+.announce .contact {
+  margin-top: 1.25em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 1.25em;
+}
+
+.announce img {
+  width: 75%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+
+}
+
+footer p {
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+.announce .tel {
+  font-weight: 400;
+  color: #D988A8;
+
+}
+
+/*new announcement styles end*/
+
+
+
+
+
+
 
 /*General/Body styles -- end*/ 
 
