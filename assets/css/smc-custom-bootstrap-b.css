@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5 {
 
 
 
+
 h4 {
   font-size: 1em;
 }
@@ -153,9 +154,12 @@ body {
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   color: #D988A8;
-  font-size: 2.5em;
-  text-align: left;
   margin-bottom: 1em;
+  font-size: 4em;
+  margin: auto;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
 .announce h2 {
