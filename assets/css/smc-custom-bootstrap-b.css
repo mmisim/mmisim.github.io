@@ -1,0 +1,436 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600');
+
+
+/* Navbar mods -- start */
+
+/*navbar background and border colors */
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/*brand style*/
+.navbar-default .navbar-brand {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #D988A8;
+}
+
+/* shrink brand to fit on larger portrait phones */
+@media (max-width: 450px) {
+.navbar-default .navbar-brand {
+  font-size: 1.7em;
+}
+}
+
+/* shrink brand to fit on smaller portrait phones */
+@media (max-width: 340px) {
+.navbar-default .navbar-brand {
+  font-size: 1.5em;
+}
+}
+
+@media (max-width: 340px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px !important;
+}
+}
+
+
+/*navbar main link style*/
+.navbar-default .navbar-nav>li>a {
+  color: #D988A8;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+
+
+/*navbar main link selected style*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #fff;
+  color: #D26992;
+  font-weight: 700;
+}
+
+
+/*hamberger base styles*/
+
+.navbar-default .navbar-toggle {
+  border-color: #D988A8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #D988A8;
+}
+
+/*hamberger selected styles*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+/*expanded hamburger border color*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #D988A8;
+}
+
+/*show menu bottom border when menu collapses into hamburger*/
+@media (max-width: 767px) {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+}
+
+/*align the expanded hamburger menu with the brand and main page content */
+.navbar-default .navbar-collapse a{
+    margin-left: 15px;
+}
+
+/* Navbar mods -- end */
+
+
+
+
+
+
+/*General/Body styles -- start*/ 
+
+a:hover {
+  color: #9F4F6F !important;
+  text-decoration: none !important;
+}
+
+a {
+  color: #D988A8 !important;; 
+  text-decoration: none !important;
+}
+
+a:active {
+  color: #D988A8;
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #D26992;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+h4 {
+  font-size: 1em;
+}
+
+/*--> for testimonial headers*/
+h4 {
+  color: #D988A8;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+/*new announcement styles start*/
+
+.announce {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.announce h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: #D988A8;
+  margin-bottom: 1em;
+  font-size: 4em;
+  margin: auto;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.announce h2 {
+  font-size: 2.25em;
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+
+.announce p {
+  text-align: left;
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+.announce a {
+  font-weight: 400;
+}
+
+.announce .contact {
+  margin-top: 1.25em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 1.25em;
+}
+
+.announce img {
+  width: 75%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+
+}
+
+footer p {
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+.announce .tel {
+  font-weight: 400;
+  color: #D988A8;
+
+}
+
+/*new announcement styles end*/
+
+
+
+
+
+
+
+/*General/Body styles -- end*/ 
+
+
+/* Form styles -- start */
+
+
+.text_inputs {
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+.text_inputs_small {
+  width: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+/* shrink input form fields portrait phones */
+@media (max-width: 400px) {
+.text_inputs {
+  width: 250px;
+}
+}
+
+.form_submit_button {
+    background-color: #fff; 
+    border: 1px;
+    border-style: solid;
+    border-color: #D988A8;
+    color: #D988A8;
+    padding: .7em 1.7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form_submit_button:hover {
+    color: #9F4F6F;
+    border-color: #9F4F6F;
+}
+
+/* Form styles -- end */
+
+/* Footer styles -- start */
+footer {
+  text-align: center;
+   color: #D26992;
+}
+/* Footer styles -- end */
+
+
+
+
+/*FIXES/OTHER*/
+
+/* START to insert space for wrapped nav size */
+@media (min-width: 768px){
+.additional_space_element {
+  display: inline-block;
+  margin-top: 70px;
+  }
+}
+
+/* END to insert space for wrapped nav size */
+
+
+
+
+
+/* left align the brand with the rest of the page content when the nav collapses into the hamburger */
+@media (max-width: 768px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 14px;
+}
+}
+
+@media (min-width: 768px) {
+/* left align the nav links with the main body conetent when the links wrap */
+.navbar-default .navbar-collapse a{
+    margin-left: 0px;
+    padding-left: 9px;
+}
+/* left align the brand with the rest of the page content at 768px wide */
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
+
+/* left align the brand with the rest of the page content when the nav links wrap */
+@media (min-width: 769px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+    padding-left: 7px;
+}
+}
+
+/* limit the width of the main content div */
+.main-content-container {
+  max-width: 650px;
+}
+
+
+
+@media (min-width: 768px){
+  #nav-parent-container {
+    width: 760px;
+}
+}
+
+
+
+html {
+  overflow-y: scroll;
+}
+
+/*li.content-bullet {
+    color: #D988A8;
+}
+li.content-bullet span {
+    color: black;
+}*/
+
+.justified-gallery {
+  left: -20px;
+}
+
+.social-icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.social-icons-inline {
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#navbar.navbar-collapse.collapse.in {
+  max-height: 800px;
+}
+
+.wakeup-blurb-content {
+  max-width: 650px;
+  padding: 0px;
+}
+
+
+.inline-image-sbc {
+   width: 100%;
+}
+
+.inline-image-sbc-small {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25%; 
+}
+
+/*responsive maps css credit: https://www.labnol.org/internet/embed-responsive-google-maps/28333/*/
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+div.menu-style a {
+  display: inline-block;
+  margin-left: .25em;
+}
+
+div.menu-style h3 {
+  font-size: 1.2em;
+  margin-bottom: 1.0em
+}
+
+
+.rwd-line { 
+  display: block;
+  margin-bottom: .5em; 
+}
+.hide-on-collapse {
+  display:none;
+}        
+
+.giftboxgallery-fix {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px){
+  .rwd-line { 
+    display: inline; }
+}
+@media screen and (min-width: 768px){
+  .hide-on-collapse { 
+    display: inline; }
+}
+
+
