@@ -267,6 +267,8 @@ footer p {
 footer {
   text-align: center;
    color: #D26992;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
 }
 /* Footer styles -- end */
 
