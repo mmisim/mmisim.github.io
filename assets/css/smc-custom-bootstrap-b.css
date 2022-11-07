@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:600');
 
 
+
 /* Navbar mods -- start */
 
 /*navbar background and border colors */
@@ -170,6 +171,12 @@ body {
 }
 
 .announce p {
+  text-align: left;
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+.announce li {
   text-align: left;
   font-size: 1.35em;
   font-weight: 300;
